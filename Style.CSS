@@ -1,0 +1,135 @@
+
+```css
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: url('images/placeholder.png') no-repeat center center/cover;
+}
+
+.hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  color: #00FFAB;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #00FFAB;
+  color: #121212;
+  text-decoration: none;
+  padding: 12px 24px;
+  margin-right: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.feature h3 {
+  color: #00FFAB;
+  margin: 15px 0;
+}
+
+.feature p {
+  color: #CCCCCC;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.step {
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+#beta {
+  background-color: #1E1E1E;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#beta h2 {
+  color: #FF3F8B;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #121212;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+footer a {
+  color: #00FFAB;
+  margin: 0 10px;
+  text-decoration: none;
+}
+```
+
+---
+
+**README.md**
+
+```markdown
+# BashmentTech Landing Page
+
+BashmentTech is an AI-powered analytics platform designed to help BIPOC event promoters predict attendance, optimize marketing, and increase revenue. This repository contains the dark-mode single-page landing site.
+
+## Features
+- Hero section with headline, subheadline, and CTA buttons
+- Features grid: Attendance Forecasting, Marketing Analytics, Revenue Optimization, Community Network
+- How it Works section: 3-step process
+- Beta Promoters section highlighting 15 BIPOC promoters
+- About section with mission, vision, and founder
+- Footer with links and newsletter signup
+
+## Usage
+1. Upload the repository to GitHub.
+2. Enable GitHub Pages under repository settings.
+3. Visit your GitHub Pages URL or configure your custom domain (bashment.tech).
+
+## License
+Owned by Elvis Herbine.
+```
+
+---
+
+Once these files are in a folder, you can compress it as `bashmenttech-site.zip` and upload it to GitHub. This will make it **ready to deploy via GitHub Pages**.
